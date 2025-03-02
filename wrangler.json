@@ -1,0 +1,30 @@
+{
+  "name": "damp-morning-37f5",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "nameless-sky-041f-d1",
+      "database_id": "a39e8add-819e-4832-b68f-d1123847374b"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "damp-morning-37f5-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
